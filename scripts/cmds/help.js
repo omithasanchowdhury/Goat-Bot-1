@@ -65,7 +65,7 @@ module.exports = {
       msg += ``;
       msg += `\n╭─────❃\n│ 🌟 | [📛𝙶𝙾𝙰𝚃𝙱𝙾𝚃📛│𝙾𝚆𝙽𝙴𝚁 𝙵𝙱 𝙸𝙳: Id diya tor kam ki?😴😴😴\n╰────────────✦`; 
 
-      const attachment = await axios.get("https://drive.google.com/uc?export=view&id=11YkL_SqXVeSF_ZDEpqwiDmZ5z_LdZGlp", { responseType: "stream" });
+      const attachment = await axios.get("https://drive.google.com/uc?export=download&id=1uG3_wOCBZUYvJlm5CaQhp54StmBrblxy", { responseType: "stream" });
 
       await message.reply({
         body: msg,
